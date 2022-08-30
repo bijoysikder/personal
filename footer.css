@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: blue;
+    color: white;
+    margin-bottom: -18px;
+}
+.row-group{
+    max-width: 900px;
+    margin: 2rem auto;
+    display: flex;
+    
+}
+.footer-right{
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .row-group{
+       max-width: 370px;
+       margin: auto;
+    }
+    p{
+        margin-top: 2rem;
+    }
+  }
